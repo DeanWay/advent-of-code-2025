@@ -68,7 +68,6 @@ fn joltage_part_2(bank: &[u32]) -> u64 {
 mod tests {
     use super::*;
     const EXAMPLE: &str = include_str!("../example.txt");
-    const INPUT: &str = include_str!("../input.txt");
 
     #[test]
     fn test_part_1_example() {
